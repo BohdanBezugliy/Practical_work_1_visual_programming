@@ -10,15 +10,13 @@
         <Viewport3D>
             <Viewport3D.Camera>
                 <PerspectiveCamera Position="0,0,2" LookDirection="0,0,-2">
-                    
+
                 </PerspectiveCamera>
             </Viewport3D.Camera>
             <Viewport3D.Children>
                 <ModelVisual3D>
                     <ModelVisual3D.Content>
-                        <DirectionalLight Color="White" Direction="-1,-1,-2">
-                            
-                        </DirectionalLight>
+                        <PointLight Color="White" Position="0,0.5,0.4"></PointLight>
                     </ModelVisual3D.Content>
                 </ModelVisual3D>
                 <ModelVisual3D>
